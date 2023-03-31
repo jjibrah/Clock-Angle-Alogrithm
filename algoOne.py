@@ -6,8 +6,10 @@ minutes = int(input("Enter the minutes\n"))
 
 if hour > 12:
     print("please enter valid hour ie(between 1-12)")
+    exit()
 elif minutes > 60:
     print("please enter valid minutes ie(between 1-60)")
+    exit()
 else:
     print("The time is", hour, ":", minutes)
 
